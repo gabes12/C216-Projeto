@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Gerenciamento de tarefas</title>
+  </head>
+  <body class="flex center">
+    <main>
+      <h1>Gerenciamento de tarefas</h1>
+      <div id="description" class="flex">
+        <p>O melhor gerenciador de tarefas já visto!</p>
+        <span class="easter-egg">(O único que já vi)</span>
+      </div>
+      <form id="add_task_form" class="flex center">
+        <input type="text" placeholder="Digite a tarefa que deseja adicionar" />
+        <button title="Adicionar tarefa" type="submit">+</button>
+      </form>
+      <h3>Lista de tarefas</h3>
+      <p>Não há nenhuma tarefa cadastrada ainda</p>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
